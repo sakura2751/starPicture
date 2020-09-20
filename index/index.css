@@ -1,0 +1,53 @@
+body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, dialog, figure, footer, header, hgroup, nav, section{
+    margin: 0;
+    padding: 0;
+    font-family: "微软雅黑";
+    color: #000000;
+    line-height: 1.5;
+}
+
+body{
+    background-color: black;
+    overflow: hidden;
+}
+
+.bubble{
+
+    background: url("../img/bling.JPG") no-repeat;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    background-size: 100%;
+    top: 550px;
+    left: 100px;
+    z-index: 1;
+}
+.moon{
+    background: url("../img/moon.JPG") no-repeat;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    background-size: 100%;
+    top: 50px;
+    left: 100px;
+    z-index: 100;
+}
+@keyframes qp {
+    from{
+        opacity: 0.1;
+    }
+    to{
+        opacity: 1;
+    }
+}
+ul{
+    list-style: none;
+}
+ul>li{
+    float: left;
+}
+ul>li>img{
+    height: 250px;
+    position: absolute;
+    z-index: 10;
+}
